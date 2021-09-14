@@ -21,7 +21,6 @@ export default {
   },
   methods: {
     changeP() {
-      console.log("click");
       this.title = "NEW";
     },
   },

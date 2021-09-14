@@ -23,7 +23,6 @@ export default {
         },
       }
     );
-    console.log(aData);
     return {
       initData: aData.data,
     };
@@ -42,14 +41,8 @@ export default {
       mountains: [],
     };
   },
-  created() {
-    // axios.defaults.baseURL = process.env.BASE_URL;
-    // axios.defaults.headers.common["Authorization"] = "Bearer RF";
-    // axios.defaults.headers.post["Content-Type"] =
-    //   "application/x-www-form-urlencoded";
-  },
+  created() {},
   activated() {
-    // Call fetch again if last fetch more than 30 sec ago
     if (this.$fetchState.timestamp <= Date.now() - 30000) {
       this.$fetch();
     }

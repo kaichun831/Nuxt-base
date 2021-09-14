@@ -5,6 +5,7 @@
         <li><NuxtLink to="/">Home</NuxtLink></li>
         <li><NuxtLink to="/fade">Fade</NuxtLink></li>
         <li><NuxtLink to="/bounce">Bounce</NuxtLink></li>
+        <li><NuxtLink to="/todos">Todos</NuxtLink></li>
       </ul>
     </nav>
     <main>
